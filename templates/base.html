@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+
+        {% endblock %}
+
+    </title>
+
+
+    {% block css %}
+    {% endblock %}
+
+
+
+    {% block js %}
+    {% endblock %}
+
+
+</head>
+<body>
+
+    {# 放顶部菜单栏 #}
+    {% block header %}
+    {% endblock %}
+
+    {# 放左侧菜单栏 #}
+    {% block aside %}
+    {% endblock %}
+
+
+
+    {% block content %}
+    {% endblock %}
+
+
+</body>
+</html>
